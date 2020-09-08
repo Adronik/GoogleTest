@@ -9,4 +9,8 @@ public class Navigation {
         return new Start();
     }
 
+    public static String getPageTitle() {
+        return WebDriver.driver.getTitle().split("-")[0].trim();
+    }
+
 }
