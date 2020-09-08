@@ -9,7 +9,6 @@ import org.testng.ITestResult;
 public class TestListener implements ITestListener {
 
     public static String browserName = "";
-    public static String authentification = "";
 
     public void onTestStart(ITestResult result) {
         WebDriver.openBrowser(browserName);
